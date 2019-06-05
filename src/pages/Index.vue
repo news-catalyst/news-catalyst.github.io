@@ -21,7 +21,7 @@
               <div class="icon">
                 <font-awesome :icon="['fas', 'tools']"/>
               </div>
-              <p>Through PressPass, a single sign-on platform connecting journalists with vetted and powerful tools, we will provide the toolkit for digital transformation. Look for more about PressPass in the winter. Help us inform the tools we include by taking our <a href="/census">Tools Census</a>.</p>
+              <p>Through PressPass, a single sign-on platform connecting journalists with vetted and powerful tools, we will provide the toolkit for digital transformation. Look for more about PressPass in the winter. Help us inform the tools we include by taking our <a href="https://newscatalyst.org/news-tools-census">Tools Census</a>.</p>
             </div>
             <div class="section">
               <h3>Hands-on collaboration</h3>
@@ -53,8 +53,8 @@
             </ul>
           </div>
 
-          <h3><a href="/census">Take our Tools Census</a></h3>
-          <p>To start building the tool suite that we will offer through PressPass, we&rsquo;re starting with some research. You can help with that research by taking our <a href="/census">Tools Census</a>. We want to know about the tools you use day-to-day in your job as a journalist.</p>
+          <h3><a href="https://newscatalyst.org/news-tools-census">Take our Tools Census</a></h3>
+          <p>To start building the tool suite that we will offer through PressPass, we&rsquo;re starting with some research. You can help with that research by taking our <a href="https://newscatalyst.org/news-tools-census">Tools Census</a>. We want to know about the tools you use day-to-day in your job as a journalist.</p>
 
           <h3>Get in touch</h3>
           <p>Have something to pitch us? Want to tell us how we got it all wrong? Email us at hi@newscatalyst.org.</p>
