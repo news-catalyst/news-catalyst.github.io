@@ -43,8 +43,6 @@
       <div class="action">
         <div class="block">
           <p class="lede">For us to get started, we need your help.</p>
-          <p>There are a couple ways you can get involved with News Catalyst.</p>
-
           <h3>Apply for our open positions</a></h3>
           <p>We&rsquo;re hiring! Take a look at our open positions:</p>
           <div id="jobs" v-for="edge in $page.jobs.edges" :key="edge.node.id">
