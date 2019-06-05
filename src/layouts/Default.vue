@@ -107,6 +107,7 @@ query {
         @media screen and (min-width: 768px) {
           display: inline-block;
           width: 30%;
+          max-width: 100%;
           height: auto;
           margin: 0 1.5%;
           vertical-align: middle;
