@@ -14,7 +14,7 @@
       </div>
       <div class="reverse">
         <div class="block">
-          <p class="lede">What we do</p>
+          <h2 class="lede">What we do</h2>
           <div class="sections">
             <div class="section">
               <h3>Tools and technology</h3>
@@ -42,8 +42,8 @@
       </div>
       <div class="action">
         <div class="block">
-          <p class="lede">For us to get started, we need your help.</p>
-          <h3>Apply for our open positions</a></h3>
+          <h2 class="lede">For us to get started, we need your help.</h2>
+          <p><strong>Apply for our open positions</strong></p>
           <p>We&rsquo;re hiring! Take a look at our open positions:</p>
           <div id="jobs" v-for="edge in $page.jobs.edges" :key="edge.node.id">
             <ul>
@@ -51,10 +51,10 @@
             </ul>
           </div>
 
-          <h3><a href="https://newscatalyst.org/news-tools-census">Take our Tools Census</a></h3>
+          <p><a href="https://newscatalyst.org/news-tools-census"><strong>Take our Tools Census</strong></a></p>
           <p>To start building the tool suite that we will offer through PressPass, we&rsquo;re starting with some research. You can help with that research by taking our <a href="https://newscatalyst.org/news-tools-census">Tools Census</a>. We want to know about the tools you use day-to-day in your job as a journalist.</p>
 
-          <h3>Get in touch</h3>
+          <p><strong>Get in touch</strong></p>
           <p>Have something to pitch us? Want to tell us how we got it all wrong? Email us at hi@newscatalyst.org.</p>
         </div>
       </div>
@@ -86,12 +86,16 @@ query Jobs {
     color: #111;
   }
 
+.lede {
+  font-size: 1.33rem;
+  @media screen and (min-width: 768px) {
+    font-size: 1.75rem;
+  }
+}
+
   p, ul, ol {
     font-size: 1.1rem;
     line-height: 1.65;
-    &.lede {
-      font-size: 1.33rem;
-    }
 
     a {
       color: #002C54;
@@ -99,9 +103,6 @@ query Jobs {
 
     @media screen and (min-width: 768px) {
       font-size: 1.25rem;
-      &.lede {
-        font-size: 1.75rem;
-      }
     }
   }
 
@@ -171,7 +172,6 @@ query Jobs {
     h3 {
       margin-top: 0;
       text-align: center;
-      font-weight: normal;
     }
   }
 
@@ -181,13 +181,12 @@ query Jobs {
     margin-left: 50%;
     transform: translateX(-50%);
 
-    p, h3, ul, ol {
+    p, h2, h3, ul, ol {
       color: #fff;
     }
 
-    .lede {
+    h2 {
       text-align: center;
-      font-weight: bold;
     }
 
     a {
