@@ -120,8 +120,12 @@ query Jobs {
 
   .block {
     max-width: 45rem;
-    padding: 1.5rem;
+    padding: 3rem 2rem;
     margin: auto;
+  }
+
+  .intro .block {
+    padding-top: 1rem;
   }
 
   .sections {

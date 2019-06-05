@@ -16,6 +16,16 @@
     <div class="content">
       <slot/>
     </div>
+    <footer>
+      <div class="wrapper">
+        <h5>News Catalyst is funded by:</h5>
+        <div class="funders">
+          <a href="https://knightfoundation.org"><g-image class="funder" src="~/assets/knight.png" alt="Knight Foundation" /></a>
+          <a href="https://lenfestinstitute.org"><g-image class="funder" src="~/assets/lenfest.png" alt="The Lenfest Institute for Journalism"/></a>
+          <a href="https://facebookjournalismproject.com"><g-image class="funder" src="~/assets/facebook.png" alt="Facebook" /></a>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -62,6 +72,51 @@ query {
         }
         &.wordmark {
           height: 80px;
+        }
+      }
+    }
+  }
+
+  footer {
+    border-top: 1px solid #999;
+    background-color: #eee;
+    padding: 1rem 2rem 2.5rem;
+
+    .wrapper {
+      max-width: 45rem;
+      margin: 0 auto;
+    }
+
+    h5 {
+      font-size: 18px;
+      text-align: center;
+
+      @media screen and (min-width: 768px) {
+        text-align: left;
+      }
+    }
+
+    .funders {
+      img {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin: 50px auto;
+
+        @media screen and (min-width: 768px) {
+          display: inline-block;
+          width: 30%;
+          height: auto;
+          margin: 0 1.5%;
+          vertical-align: middle;
+
+          &:first-child {
+            margin-left: 0;
+          }
+          &:last-child {
+            margin-right: 0;
+          }
         }
       }
     }
