@@ -20,9 +20,9 @@
       <div class="wrapper">
         <h5>News Catalyst is funded by:</h5>
         <div class="funders">
-          <a href="https://knightfoundation.org"><g-image class="funder" src="~/assets/knight.png" alt="Knight Foundation" /></a>
-          <a href="https://lenfestinstitute.org"><g-image class="funder" src="~/assets/lenfest.png" alt="The Lenfest Institute for Journalism"/></a>
-          <a href="https://facebookjournalismproject.com"><g-image class="funder" src="~/assets/facebook.png" alt="Facebook" /></a>
+          <a href="https://knightfoundation.org"><g-image class="knight" src="~/assets/knight.png" alt="Knight Foundation" /></a>
+          <a href="https://lenfestinstitute.org"><g-image class="lenfest" src="~/assets/lenfest.png" alt="The Lenfest Institute for Journalism"/></a>
+          <a href="https://facebookjournalismproject.com"><g-image class="facebook" src="~/assets/facebook.png" alt="Facebook" /></a>
         </div>
       </div>
     </footer>
@@ -112,10 +112,10 @@ query {
           margin: 0 1.5%;
           vertical-align: middle;
 
-          &:first-child {
+          &.knight {
             margin-left: 0;
           }
-          &:last-child {
+          &.facebook {
             margin-right: 0;
           }
         }
