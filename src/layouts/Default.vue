@@ -30,18 +30,7 @@
 </template>
 
 <script>
-  export default {
-    props: ['showLinks']
-  }
 </script>
-
-<static-query>
-query {
-  metaData {
-    siteName
-  }
-}
-</static-query>
 
 <style lang="scss">
   body {
@@ -58,20 +47,17 @@ query {
     img {
       width: auto;
       vertical-align: middle;
+      height: 40px;
 
       &.logo {
-        height: 40px;
-      }
-      &.wordmark {
-        height: 35px;
+        margin-right: 8px;
       }
 
       @media screen and (min-width: 768px) {
+        height: 80px;
+
         &.logo {
-          height: 110px;
-        }
-        &.wordmark {
-          height: 80px;
+          margin-right: 16px;
         }
       }
     }
