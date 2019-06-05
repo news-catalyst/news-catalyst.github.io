@@ -3,8 +3,8 @@
     <header class="header">
       <div class="left">
         <g-link to="/">
-          <g-image src="~/assets/logo.svg" />
-          <g-image src="~/assets/wordmark.svg" />
+          <g-image class="logo" src="~/assets/logo.svg" />
+          <g-image class="wordmark" src="~/assets/wordmark.svg" />
         </g-link>
       </div>
       <div class="right" v-if="showLinks">
@@ -46,11 +46,23 @@ query {
     align-items: center;
 
     img {
-      height: 45px;
       width: auto;
+      vertical-align: middle;
+
+      &.logo {
+        height: 40px;
+      }
+      &.wordmark {
+        height: 35px;
+      }
 
       @media screen and (min-width: 768px) {
-        height: 110px;
+        &.logo {
+          height: 110px;
+        }
+        &.wordmark {
+          height: 80px;
+        }
       }
     }
   }

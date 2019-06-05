@@ -4,7 +4,9 @@
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
-    "explore": "gridsome explore"
+    "explore": "gridsome explore",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.19",
@@ -13,6 +15,7 @@
     "@sindresorhus/slugify": "^0.9.1",
     "dotenv": "^7.0.0",
     "front-matter": "^3.0.2",
+    "gh-pages": "^2.0.1",
     "gootenberg": "^1.0.0",
     "gridsome": "^0.6.3",
     "markdown-it": "^8.4.2",

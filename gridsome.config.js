@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'News Catalyst',
-  plugins: []
+  plugins: [],
+  siteUrl: 'https://tylerjfisher.com',
+  pathPrefix: '/newscatalyst',
 }
