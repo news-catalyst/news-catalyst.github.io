@@ -9,7 +9,7 @@
 
           <p>First, who are we? We’re News Catalyst, a new project based out of Temple University’s Klein College of Media and Communication and part of the Knight-Lenfest Local News Transformation Fund.</p>
 
-          <p>Right now, there’s just two of us: Aron Pilhofer, our director and the James B. Steele Chair in Journalism Innovation at Temple University; and Tyler Fisher, our deputy director and formerly of POLITICO and NPR. We both have experience in pairing technical innovation with tangible impact on the business of news. More importantly, <a href="/jobs">we’re hiring!</a></p>
+          <p>Right now, there’s just two of us: Aron Pilhofer, our director and the James B. Steele Chair in Journalism Innovation at Temple University; and Tyler Fisher, our deputy director and formerly of POLITICO and NPR. We both have experience in pairing technical innovation with tangible impact on the business of news. More importantly, <a href="#jobs">we’re hiring!</a></p>
         </div>
       </div>
       <div class="reverse">
