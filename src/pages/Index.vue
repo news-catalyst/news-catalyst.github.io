@@ -142,8 +142,16 @@ query Jobs {
 
     .section {
       max-width: 45rem;
-      margin: 0 auto;
+      margin: 60px auto;
       width: 100%;
+
+      &:first-child {
+        margin-top: 0;
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
 
       p {
         padding: 0 20px;
@@ -152,6 +160,7 @@ query Jobs {
       @media screen and (min-width: 1200px){
         width: 33%;
         padding: 0 20px;
+        margin: 0 auto;
 
         p {
           padding: 0;
