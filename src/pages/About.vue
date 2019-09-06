@@ -4,7 +4,7 @@
       <h2>Our mission</h2>
       <p>News Catalyst provides tools, fosters collaboration, and promotes experimentation in service of building digitally sustainable news organizations.</p>
 
-      <h2>Our staff</h2>
+      <h2>Our team</h2>
       <div class="staffer">
         <h5>Aron Pilhofer, Director</h5>
         <g-image class="headshot" src="~/assets/aron.jpeg" />
@@ -45,9 +45,9 @@ article {
   width: 150px;
   height: auto;
   float: left;
-  border: 1px solid grey;
+  border: 1px solid black;
   margin: 0 15px 10px 0;
-  border-radius: 75px;
+  border-radius: 10px;
 }
 </style>
 

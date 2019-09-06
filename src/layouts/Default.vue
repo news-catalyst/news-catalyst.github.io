@@ -16,7 +16,7 @@
     <div class="content">
       <slot/>
     </div>
-    <footer>
+    <!-- <footer>
       <div class="wrapper">
         <h5>News Catalyst is funded by:</h5>
         <div class="funders">
@@ -25,7 +25,7 @@
           <a href="https://facebookjournalismproject.com"><g-image class="facebook" src="~/assets/facebook.png" alt="Facebook" /></a>
         </div>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>
 
@@ -35,7 +35,7 @@
 <style lang="scss">
   body {
     font-family: 'Work Sans', sans-serif;
-    background-color: #fff;
+    background: linear-gradient(22.5deg, rgba(2, 2, 2, 0.02) 0%, rgba(2, 2, 2, 0.02) 9%,rgba(252, 252, 252, 0.02) 9%, rgba(252, 252, 252, 0.02) 36%,rgba(237, 237, 237, 0.02) 36%, rgba(237, 237, 237, 0.02) 69%,rgba(78, 78, 78, 0.02) 69%, rgba(78, 78, 78, 0.02) 77%,rgba(85, 85, 85, 0.02) 77%, rgba(85, 85, 85, 0.02) 95%,rgba(43, 43, 43, 0.02) 95%, rgba(43, 43, 43, 0.02) 100%),linear-gradient(90deg, rgba(63, 63, 63, 0.02) 0%, rgba(63, 63, 63, 0.02) 8%,rgba(151, 151, 151, 0.02) 8%, rgba(151, 151, 151, 0.02) 53%,rgba(17, 17, 17, 0.02) 53%, rgba(17, 17, 17, 0.02) 56%,rgba(215, 215, 215, 0.02) 56%, rgba(215, 215, 215, 0.02) 65%,rgba(202, 202, 202, 0.02) 65%, rgba(202, 202, 202, 0.02) 79%,rgba(208, 208, 208, 0.02) 79%, rgba(208, 208, 208, 0.02) 100%),linear-gradient(67.5deg, rgba(129, 129, 129, 0.02) 0%, rgba(129, 129, 129, 0.02) 13%,rgba(71, 71, 71, 0.02) 13%, rgba(71, 71, 71, 0.02) 16%,rgba(51, 51, 51, 0.02) 16%, rgba(51, 51, 51, 0.02) 18%,rgba(86, 86, 86, 0.02) 18%, rgba(86, 86, 86, 0.02) 90%,rgba(227, 227, 227, 0.02) 90%, rgba(227, 227, 227, 0.02) 91%,rgba(30, 30, 30, 0.02) 91%, rgba(30, 30, 30, 0.02) 100%),linear-gradient(90deg, #FFF,#FFF);
   }
 
   header {

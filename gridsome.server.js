@@ -14,27 +14,32 @@ var md = require('markdown-it')({
 var fm = require('front-matter');
 var slugify = require('@sindresorhus/slugify');
 
+var docs = [
+  '1TWxOYR3IIQb0F_aSFMIj8zwdyr1Nht80La0PIvmjsBI',
+  '1Xy43DOVyPtgag9jnBQE_7xmUKG8R7zukWJghwltYm1c'
+]
+
 module.exports = function (api) {
   api.loadSource(async store => {
     const goot = new Gootenberg();
     await goot.auth.jwt();
-
-    const data = await goot.drive.export(
-      '1TWxOYR3IIQb0F_aSFMIj8zwdyr1Nht80La0PIvmjsBI',
-    );
-
-    const parsedFrontMatter = fm(data);
 
     const contentType = store.addContentType({
       typeName: 'Job',
       route: '/jobs/:slug'
     });
 
-    contentType.addNode({
-      pageTitle: parsedFrontMatter.attributes.pageTitle,
-      jobTitle: parsedFrontMatter.attributes.jobTitle,
-      content: md.render(parsedFrontMatter.body),
-      slug: slugify(parsedFrontMatter.attributes.pageTitle),
-    });
+    for (var i = 0; i < docs.length; i++) {
+      const data = await goot.drive.export(docs[i]);
+
+      const parsedFrontMatter = fm(data);
+
+      contentType.addNode({
+        pageTitle: parsedFrontMatter.attributes.pageTitle,
+        jobTitle: parsedFrontMatter.attributes.jobTitle,
+        content: md.render(parsedFrontMatter.body),
+        slug: slugify(parsedFrontMatter.attributes.pageTitle),
+      });
+    }
   })
 }
