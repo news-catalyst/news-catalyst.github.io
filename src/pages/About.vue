@@ -2,16 +2,17 @@
   <Layout>
     <article>
       <h2>Our mission</h2>
-      <p>News Catalyst provides tools, fosters collaboration, and promotes experimentation in service of building digitally sustainable news organizations.</p>
+      <p>News Catalyst helps news organizations transform themselves into sustainable digital businesses.</p>
 
       <h2>Our team</h2>
+      <p>News Catalyst is based at Temple University’s <a href="https://klein.temple.edu">Klein College of Media and Communication</a>. Our team is growing, so take a look at our <a href="/jobs">open positions</a>.</p>
       <div class="staffer">
         <h5>Aron Pilhofer, Director</h5>
         <g-image class="headshot" src="~/assets/aron.jpeg" />
         <p>Aron Pilhofer is the James B. Steele Chair in Journalism Innovation at Temple University. In addition to teaching, his work is focused on new business models, digital transformation and innovation in news. Before joining Temple, Pilhofer was executive editor, digital, and interim chief digital officer at the Guardian in London. There, he led the Guardian's product and technology teams as well as heading visual journalism - including pictures, graphics, interactive and data journalism. Before coming to the Guardian, Aron was associate managing editor for digital strategy and editor of interactive news at The New York Times. Outside the newsroom, Aron co-founded two news-related startups: DocumentCloud and Hacks/Hackers.</p>
       </div>
       <div class="staffer">
-        <h5>Tyler Fisher, Deputy Director</h5>
+        <h5>Tyler Fisher, Deputy Director, Technology</h5>
         <g-image class="headshot" src="~/assets/tyler.jpg" />
         <p>Tyler is a journalist and developer based in Washington, D.C. As Deputy Director, Tyler is responsible for the tools and technology News Catalyst provides to its audience. Before joining News Catalyst, Tyler was a Senior News Apps Developer on POLITICO's Interactive News Team. There, he led development of POLITICO's 2018 election results coverage and built vital team infrastructure for rapidly publishing data-driven, bespoke web presentations. Before POLITICO, Tyler worked as a News Apps Developer on the NPR Visuals Team.</p>
       </div>

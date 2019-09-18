@@ -19,6 +19,8 @@ var docs = [
   '1Xy43DOVyPtgag9jnBQE_7xmUKG8R7zukWJghwltYm1c'
 ]
 
+console.log(process.env.GAPI_CLIENT_EMAIL)
+
 module.exports = function (api) {
   api.loadSource(async store => {
     const goot = new Gootenberg();

@@ -16,26 +16,49 @@
     <div class="content">
       <slot/>
     </div>
-    <!-- <footer>
+    <footer v-bind:class="{ push: pushFooter }">
       <div class="wrapper">
         <h5>News Catalyst is funded by:</h5>
         <div class="funders">
           <a href="https://knightfoundation.org"><g-image class="knight" src="~/assets/knight.png" alt="Knight Foundation" /></a>
-          <a href="https://lenfestinstitute.org"><g-image class="lenfest" src="~/assets/lenfest.png" alt="The Lenfest Institute for Journalism"/></a>
-          <a href="https://facebookjournalismproject.com"><g-image class="facebook" src="~/assets/facebook.png" alt="Facebook" /></a>
+          <a href="https://lenfestinstitute.org"><g-image class="lenfest" src="~/assets/lenfest.png" alt="Lenfest Institute for Journalism"/></a>
+          <a href="https://facebookjournalismproject.com"><g-image class="facebook" src="~/assets/fb.svg" alt="Facebook Journalism Project" /></a>
         </div>
       </div>
-    </footer> -->
+      <div class="project-home">
+        <div class="wrapper">
+          <div class="lockup">
+            <div class="left">
+              <a href="https://klein.temple.edu"><g-image class="temple" src="~/assets/klein.png" alt="Klein College of Media and Communication at Temple University" /></a>
+            </div>
+            <div class="spacer">
+
+            </div>
+            <div class="right">
+              <address>
+                1515 Market Street<br/>
+                Suite 215<br/>
+                Philadelphia, PA 19102<br/>
+              </address>
+            </div>
+          </div>
+        </div>
+        <p>©2019 News Catalyst. All rights reserved.</p>
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
+export default {
+  props: ['pushFooter']
+}
 </script>
 
 <style lang="scss">
   body {
     font-family: 'Work Sans', sans-serif;
-    background: linear-gradient(22.5deg, rgba(2, 2, 2, 0.02) 0%, rgba(2, 2, 2, 0.02) 9%,rgba(252, 252, 252, 0.02) 9%, rgba(252, 252, 252, 0.02) 36%,rgba(237, 237, 237, 0.02) 36%, rgba(237, 237, 237, 0.02) 69%,rgba(78, 78, 78, 0.02) 69%, rgba(78, 78, 78, 0.02) 77%,rgba(85, 85, 85, 0.02) 77%, rgba(85, 85, 85, 0.02) 95%,rgba(43, 43, 43, 0.02) 95%, rgba(43, 43, 43, 0.02) 100%),linear-gradient(90deg, rgba(63, 63, 63, 0.02) 0%, rgba(63, 63, 63, 0.02) 8%,rgba(151, 151, 151, 0.02) 8%, rgba(151, 151, 151, 0.02) 53%,rgba(17, 17, 17, 0.02) 53%, rgba(17, 17, 17, 0.02) 56%,rgba(215, 215, 215, 0.02) 56%, rgba(215, 215, 215, 0.02) 65%,rgba(202, 202, 202, 0.02) 65%, rgba(202, 202, 202, 0.02) 79%,rgba(208, 208, 208, 0.02) 79%, rgba(208, 208, 208, 0.02) 100%),linear-gradient(67.5deg, rgba(129, 129, 129, 0.02) 0%, rgba(129, 129, 129, 0.02) 13%,rgba(71, 71, 71, 0.02) 13%, rgba(71, 71, 71, 0.02) 16%,rgba(51, 51, 51, 0.02) 16%, rgba(51, 51, 51, 0.02) 18%,rgba(86, 86, 86, 0.02) 18%, rgba(86, 86, 86, 0.02) 90%,rgba(227, 227, 227, 0.02) 90%, rgba(227, 227, 227, 0.02) 91%,rgba(30, 30, 30, 0.02) 91%, rgba(30, 30, 30, 0.02) 100%),linear-gradient(90deg, #FFF,#FFF);
+    background-color: #fff;
   }
 
   header {
@@ -66,7 +89,7 @@
   footer {
     border-top: 1px solid #999;
     background-color: #eee;
-    padding: 1rem 2rem 2.5rem;
+    padding: 1rem 0 0;
 
     .wrapper {
       max-width: 45rem;
@@ -83,6 +106,7 @@
     }
 
     .funders {
+      margin-bottom: 2.5rem;
       img {
         display: block;
         width: 100%;
@@ -98,13 +122,98 @@
           margin: 0 1.5%;
           vertical-align: middle;
 
+
+          &.lenfest {
+            width: 22%;
+          }
           &.knight {
+            width: 22%;
             margin-left: 0;
           }
           &.facebook {
+            width: 50%;
             margin-right: 0;
           }
         }
+      }
+    }
+
+    .project-home {
+      background-color: #0E1014;
+      border-top: 1px solid #999;
+      padding: 3rem 0 2.5rem;
+
+      .lockup {
+        @media screen and (min-width: 768px) {
+          display: flex;
+          > div {
+            width: 45%;
+            display: flex;
+            justify-content: flex-start;
+          }
+          > div.spacer {
+            width: 10%;
+            background: linear-gradient(to right,
+	                              transparent 0%,
+	                              transparent calc(50% - 0.81px),
+	                              white calc(50% - 0.8px),
+	                              white calc(50% + 0.8px),
+	                              transparent calc(50% + 0.81px),
+	                              transparent 100%);
+          }
+          .left {
+            justify-content: flex-end;
+          }
+        }
+      }
+
+      h5 {
+        color: white;
+        margin-top: 0;
+      }
+      .temple {
+        max-width: 172px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        @media screen and (min-width: 768px) {
+          max-width: 100%;
+          width: 15rem;
+          margin: 0;
+        }
+      }
+
+      .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        address {
+          margin: 1rem 0;
+          color: white;
+          font-style: normal;
+          font-size: 16px;
+          @media screen and (min-width: 768px) {
+            font-size: 20px;
+          }
+        }
+      }
+    }
+
+    p {
+      font-size: 14px;
+      color: #ccc;
+      text-align: center;
+      margin: 1rem 0 0;
+      @media screen and (min-width: 768px) {
+        margin: 3rem 0 0;
+      }
+    }
+
+    &.push {
+      @media screen and (min-height: 899px) and (min-width: 768px) {
+        position: absolute;
+        width: 100%;
+        bottom: 0;
       }
     }
   }
