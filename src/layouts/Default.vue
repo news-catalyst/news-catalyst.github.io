@@ -28,19 +28,7 @@
       <div class="project-home">
         <div class="wrapper">
           <div class="lockup">
-            <div class="left">
-              <a href="https://klein.temple.edu"><g-image class="temple" src="~/assets/klein.png" alt="Klein College of Media and Communication at Temple University" /></a>
-            </div>
-            <div class="spacer">
-
-            </div>
-            <div class="right">
-              <address>
-                1515 Market Street<br/>
-                Suite 215<br/>
-                Philadelphia, PA 19102<br/>
-              </address>
-            </div>
+            <a href="https://klein.temple.edu"><g-image class="temple" src="~/assets/klein.png" alt="Klein College of Media and Communication at Temple University" /></a>
           </div>
         </div>
         <p>©2019 News Catalyst. All rights reserved.</p>
@@ -146,6 +134,7 @@ export default {
       .lockup {
         @media screen and (min-width: 768px) {
           display: flex;
+          justify-content: center;
           > div {
             width: 45%;
             display: flex;
@@ -162,7 +151,7 @@ export default {
 	                              transparent 100%);
           }
           .left {
-            justify-content: flex-end;
+            justify-content: center;
           }
         }
       }

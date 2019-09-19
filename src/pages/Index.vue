@@ -47,6 +47,7 @@
               <li><a :href="`/jobs/${edge.node.slug}`">{{ edge.node.jobTitle }}</a></li>
             </ul>
           </div>
+          <p>Email us at <a href="mailto:jobs@newscatalyst.org">jobs@newscatalyst.org</a> with any questions.
 
           <h3><a href="https://newscatalyst.org/news-tools-census">Take our Tools Census</a></h3>
           <p>We want to know what tools news organizations are using every day and whether or not they are effective. If you work at a news organization, please <a href="https://newscatalyst.org/news-tools-census">take our tools census</a> and help us learn about the state of the industry.</p>
