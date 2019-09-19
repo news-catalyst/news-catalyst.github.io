@@ -1,5 +1,5 @@
 # News Catalyst homepage
 
-![static/share-white.png]
+![News Catalyst logo](static/share-white.png)
 
 Docs soon.
