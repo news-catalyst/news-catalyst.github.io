@@ -12,15 +12,53 @@ query Job ($path: String!) {
   job: job (path: $path) {
     pageTitle
     content
+    slug
+    jobTitle
   }
 }
 </page-query>
 
 <script>
-import Layout from '~/layouts/Default.vue'
+import Layout from '~/layouts/Default.vue';
+
+function constructDesc(title) {
+  return `News Catalyst is hiring a ${title}.`;
+}
+
 export default {
   components: {
     Layout
+  },
+  metaInfo() {
+    return {
+      title: this.$page.job.pageTitle,
+      meta: [
+        {
+          name: "description",
+          content: constructDesc(this.$page.job.jobTitle),
+        },
+        {
+          name: "og:title",
+          content: this.$page.job.pageTitle,
+        },
+        {
+          name: "og:description",
+          content: constructDesc(this.$page.job.jobTitle),
+        },
+        {
+          name: "og:url",
+          content: `https://newscatalyst.org/jobs/${this.$page.job.slug}`,
+        },
+        {
+          name: "twitter:title",
+          content: this.$page.job.pageTitle,
+        },
+        {
+          name: "twitter.description",
+          content: constructDesc(this.$page.job.jobTitle),
+        },
+      ],
+    };
   },
 }
 </script>

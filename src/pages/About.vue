@@ -21,9 +21,37 @@
 </template>
 
 <script>
+const desc = "News Catalyst helps news organizations transform themselves into sustainable digital businesses.";
+
 export default {
   metaInfo: {
-    title: 'About'
+    title: 'About',
+    meta: [
+      {
+        name: "description",
+        content: desc,
+      },
+      {
+        name: "og:title",
+        content: "News Catalyst",
+      },
+      {
+        name: "og:description",
+        content: desc,
+      },
+      {
+        name: "og:url",
+        content: "https://newscatalyst.org/about",
+      },
+      {
+        name: "twitter:title",
+        content: "News Catalyst",
+      },
+      {
+        name: "twitter:description",
+        content: desc,
+      },
+    ],
   }
 }
 </script>

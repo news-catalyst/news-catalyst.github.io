@@ -28,9 +28,37 @@ query Jobs {
 </page-query>
 
 <script>
+const desc = "News Catalyst helps news organizations transform themselves into sustainable digital businesses. See our job openings.";
+
 export default {
   metaInfo: {
-    title: 'Jobs'
+    title: 'Jobs',
+    meta: [
+      {
+        name: "description",
+        content: desc,
+      },
+      {
+        name: "og:title",
+        content: "Jobs at News Catalyst",
+      },
+      {
+        name: "og:description",
+        content: desc,
+      },
+      {
+        name: "og:url",
+        content: "https://newscatalyst.org/jobs",
+      },
+      {
+        name: "twitter:title",
+        content: "Jobs at News Catalyst",
+      },
+      {
+        name: "twitter:description",
+        content: desc,
+      },
+    ],
   }
 }
 </script>

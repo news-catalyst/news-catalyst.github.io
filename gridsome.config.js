@@ -8,4 +8,5 @@ module.exports = {
   siteName: 'News Catalyst',
   plugins: [],
   siteUrl: 'https://newscatalyst.org',
+  titleTemplate: '%s | News Catalyst',
 }
