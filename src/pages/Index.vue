@@ -6,6 +6,7 @@
           <p class="lede">News Catalyst helps news organizations transform themselves into sustainable digital businesses.</p>
           <p>We will accomplish this by providing tools, fostering collaboration, and promoting experimentation within the news industry.</p>
           <p>Our focus will be areas in which news organizations have traditionally underinvested, like product development, data, analytics, digital storytelling, mobile and engagement. Where there are gaps in capability, News Catalyst will fill them by providing tools, technology, training, hands-on support and expertise.</p>
+          <p>Read more about our team <a href="/about">here</a>.</p>
         </div>
       </div>
       <div class="reverse">
@@ -15,9 +16,9 @@
             <div class="section">
               <h3>Tools and technology</h3>
               <div class="icon">
-                <g-image src="~/assets/undraw_pair_programming_njlp.svg" alt="Pair programming" />
+                <g-image src="~/assets/undraw_developer_activity_bv83.svg" alt="Developer" />
               </div>
-              <p>We put the right tools and technology in the hands of the news organizations that desperately need them. By assessing the current market of digital tools, we identify the best tools available, support those tools, and provide easy, streamlined access to them for news organizations.</p>
+              <p>We put the right tools and technology in the hands of the news organizations that need them. By assessing the current market of digital tools, we identify the best tools available, support those tools, and provide easy, streamlined access to them for news organizations.</p>
             </div>
             <div class="section">
               <h3>Hands-on collaboration</h3>
@@ -29,7 +30,7 @@
             <div class="section">
               <h3>Learning and expertise</h3>
               <div class="icon">
-                <g-image src="~/assets/undraw_teaching_f1cm.svg" alt="Professor teaching at chalkboard" />
+                <g-image src="~/assets/undraw_pair_programming_njlp.svg" alt="Pair programming" />
               </div>
               <p>We develop training resources targeted at helping news leaders develop the knowledge and skills they need to be effective agents of digital transformation. We focus especially on developing product management skills that are rapidly becoming critical for innovation.</p>
             </div>
@@ -51,7 +52,7 @@
           <p>We want to know what tools news organizations are using every day and whether or not they are effective. If you work at a news organization, please <a href="https://newscatalyst.org/news-tools-census">take our tools census</a> and help us learn about the state of the industry.</p>
 
           <h3>Get in touch</h3>
-          <p>We're on Twitter! Follow us at <a href="https://twitter.com/newscatalyst">@NewsCatalyst</a>.</p>
+          <p>We're on Twitter! Follow us at <a href="https://twitter.com/newscatalyst">@newscatalyst</a>.</p>
         </div>
       </div>
     </article>
