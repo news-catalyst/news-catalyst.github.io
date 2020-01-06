@@ -6,7 +6,7 @@
           <p class="lede">News Catalyst helps news organizations transform themselves into sustainable digital businesses.</p>
           <p>We will accomplish this by providing tools, fostering collaboration, and promoting experimentation within the news industry.</p>
           <p>Our focus will be areas in which news organizations have traditionally underinvested, like product development, data, analytics, digital storytelling, mobile and engagement. Where there are gaps in capability, News Catalyst will fill them by providing tools, technology, training, hands-on support and expertise.</p>
-          <p>Read more about our team <a href="/about">here</a>.</p>
+          <p>Read more about our team <a href="/about">here</a>. We publish the latest updates about our work on our <a href="https://medium.com/news-catalyst">Medium publication</a>.</p>
         </div>
       </div>
       <div class="reverse">
@@ -47,13 +47,13 @@
               <li><a :href="`/jobs/${edge.node.slug}`">{{ edge.node.jobTitle }}</a></li>
             </ul>
           </div>
-          <p>Email us at <a href="mailto:jobs@newscatalyst.org">jobs@newscatalyst.org</a> with any questions.
+          <p>Email us at <a href="mailto:jobs@newscatalyst.org">jobs@newscatalyst.org</a> with any questions.</p>
 
           <h3><a href="https://newscatalyst.org/news-tools-census">Take our Tools Census</a></h3>
           <p>We want to know what tools news organizations are using every day and whether or not they are effective. If you work at a news organization, please <a href="https://newscatalyst.org/news-tools-census">take our tools census</a> and help us learn about the state of the industry.</p>
 
           <h3>Get in touch</h3>
-          <p>We're on Twitter! Follow us at <a href="https://twitter.com/newscatalyst">@newscatalyst</a>.</p>
+          <p>We're on Twitter! Follow us at <a href="https://twitter.com/newscatalyst">@newscatalyst</a>. We publish the latest updates about our work on our <a href="https://medium.com/news-catalyst">Medium publication</a>.</p>
         </div>
       </div>
     </article>

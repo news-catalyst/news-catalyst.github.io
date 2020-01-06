@@ -7,10 +7,9 @@
           <g-image class="wordmark" src="~/assets/wordmark.svg" />
         </g-link>
       </div>
-      <div class="right" v-if="showLinks">
-        <g-link to="/about">Who we are</g-link>&nbsp;
-        <g-link to="/projects">What we do</g-link>&nbsp;
-        <g-link to="/jobs">Jobs</g-link>
+      <div class="right">
+        <g-link to="/about">About</g-link>&nbsp;
+        <a href="https://medium.com/news-catalyst">News</a>&nbsp;
       </div>
     </header>
     <div class="content">
@@ -51,9 +50,14 @@ export default {
 
   header {
     padding-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+
+    @media screen and (min-width: 1200px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
     img {
       width: auto;
@@ -70,6 +74,28 @@ export default {
         &.logo {
           margin-right: 16px;
         }
+      }
+    }
+    .left {
+      margin-bottom: 20px;
+    }
+
+    .right {
+      a {
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 0.5rem;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      @media screen and (min-width: 1200px) {
+        position: absolute;
+        right: 100px;
+        font-size: 1.25rem;
+
       }
     }
   }
