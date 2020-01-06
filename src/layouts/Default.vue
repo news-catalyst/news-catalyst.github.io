@@ -78,6 +78,10 @@ export default {
     }
     .left {
       margin-bottom: 20px;
+
+      @media screen and (min-width: 1200px){
+        margin-bottom: 0;
+      }
     }
 
     .right {
