@@ -30,7 +30,7 @@
             <a href="https://klein.temple.edu"><g-image class="temple" src="~/assets/klein.png" alt="Klein College of Media and Communication at Temple University" /></a>
           </div>
         </div>
-        <p>©2019 News Catalyst. All rights reserved.</p>
+        <p>©2020 News Catalyst. All rights reserved.</p>
       </div>
     </footer>
   </div>
