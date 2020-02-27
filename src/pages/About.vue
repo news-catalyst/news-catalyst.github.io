@@ -22,6 +22,11 @@
         <p>Tyler is a journalist and developer based in Washington, D.C. As Deputy Director, Tyler is responsible for the tools and technology News Catalyst provides to its audience. Before joining News Catalyst, Tyler was a Senior News Apps Developer on POLITICO's Interactive News Team. There, he led development of POLITICO's 2018 election results coverage and built vital team infrastructure for rapidly publishing data-driven, bespoke web presentations. Before POLITICO, Tyler worked as a News Apps Developer on the NPR Visuals Team.</p>
       </div>
       <div class="staffer">
+        <h5>Jacqui Lough, Developer</h5>
+        <g-image class="headshot" src="~/assets/jacqui.jpeg" />
+        <p>Jacqui Lough has over twenty years experience using technology to further causes across multiple industries. Working in the Silicon Valley, she developed early social media platforms including Friendster. She also contributed to public health working on solutions for anti-retroviral treatment in sub-Saharan Africa using innovative tech. Most of her work has been in media, though, including interactive news and data journalism at The New York Times and the BBC. Most recently she was the head of interactive news for Condé Nast focused on a dozen international Vogue markets. Jacqui lives in Australia with her husband and dog and is thrilled to be developing News Catalyst.</p>
+      </div>
+      <div class="staffer">
         <h5>Jessica Morrison, Product Lead</h5>
         <g-image class="headshot" src="~/assets/jessica.jpg" />
         <p>Jessica Morrison is a senior product manager at Chemical & Engineering News and product lead for News Catalyst. She started a product team at C&EN in 2018 with support from newsroom leadership and has since led the team through several new product launches and many, many two-week sprints. Before moving into product, Jessica was a policy reporter at C&EN, an editorial fellow at Nature, a health reporting fellow at the Charlotte Observer, and a science reporting fellow at the Chicago Tribune. Jessica earned a Ph.D. from the University of Notre Dame, where she studied uranium geochemistry.</p>
