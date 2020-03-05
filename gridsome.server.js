@@ -16,7 +16,8 @@ var slugify = require('@sindresorhus/slugify');
 
 var docs = [
   '1TWxOYR3IIQb0F_aSFMIj8zwdyr1Nht80La0PIvmjsBI',
-  '1Xy43DOVyPtgag9jnBQE_7xmUKG8R7zukWJghwltYm1c'
+  '1Xy43DOVyPtgag9jnBQE_7xmUKG8R7zukWJghwltYm1c',
+  '1RkGOw0EqljNrm37MX2vhrdEK7sViV8Ik_QGQIVPdJOk'
 ]
 
 console.log(process.env.GAPI_CLIENT_EMAIL)
