@@ -66,7 +66,7 @@
       <p><b>Questions for us?</b></p>
       <p>You are welcome to reach out with questions you have about this process. Email <a href="mailto:heather@newscatalyst.org">heather@newscatalyst.org</a> </p>
 
-      <p><b>Application (Airtable Form to Embed)</b></p>
+      <h3>Application</h3>
 
       <iframe class="airtable-embed" src="https://airtable.com/embed/shrBTenn8Nqtv0Cvb?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="800" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
@@ -75,11 +75,11 @@
 </template>
 
 <script>
-const desc = "News Catalyst helps news organizations transform themselves into sustainable digital businesses.";
+const desc = "News Catalyst is seeking to collaborate with partner news organizations on a product-focused challenge in your news organization.";
 
 export default {
   metaInfo: {
-    title: 'About',
+    title: 'Product Challenge Partnerships',
     meta: [
       {
         name: "description",
@@ -87,7 +87,7 @@ export default {
       },
       {
         name: "og:title",
-        content: "News Catalyst",
+        content: "News Catalyst – Product Challenge Partnerships",
       },
       {
         name: "og:description",
@@ -95,11 +95,11 @@ export default {
       },
       {
         name: "og:url",
-        content: "https://newscatalyst.org/about",
+        content: "https://newscatalyst.org/product-partnerships",
       },
       {
         name: "twitter:title",
-        content: "News Catalyst",
+        content: "News Catalyst – Product Challenge Partnerships",
       },
       {
         name: "twitter:description",

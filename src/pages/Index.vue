@@ -4,8 +4,8 @@
       <div class="intro">
         <div class="block">
           <p class="lede">News Catalyst helps news organizations transform themselves into sustainable digital businesses.</p>
-          <p>We will accomplish this by providing tools, fostering collaboration, and promoting experimentation within the news industry.</p>
-          <p>Our focus will be areas in which news organizations have traditionally underinvested, like product development, data, analytics, digital storytelling, mobile and engagement. Where there are gaps in capability, News Catalyst will fill them by providing tools, technology, training, hands-on support and expertise.</p>
+          <p>We accomplish this by providing tools, fostering collaboration, and promoting experimentation within the news industry.</p>
+          <p>Our focus is in areas which news organizations have traditionally underinvested, like product development, data, analytics, digital storytelling, mobile and engagement. Where there are gaps in capability, News Catalyst fills them by providing tools, technology, training, hands-on support and expertise.</p>
           <p>Read more about our team <a href="/about">here</a>. We publish the latest updates about our work on our <a href="https://medium.com/news-catalyst">Medium publication</a>.</p>
         </div>
       </div>
