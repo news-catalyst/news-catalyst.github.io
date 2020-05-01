@@ -66,8 +66,6 @@
       <p><b>Questions for us?</b></p>
       <p>You are welcome to reach out with questions you have about this process. Email <a href="mailto:heather@newscatalyst.org">heather@newscatalyst.org</a> </p>
 
-      <h3>Application</h3>
-
       <iframe class="airtable-embed" src="https://airtable.com/embed/shrBTenn8Nqtv0Cvb?backgroundColor=purple" frameborder="0" onmousewheel="" width="100%" height="800" style="background: transparent; border: 1px solid #ccc;"></iframe>
 
     </article>
