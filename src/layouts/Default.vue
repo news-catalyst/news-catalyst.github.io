@@ -16,9 +16,16 @@
       <slot/>
     </div>
     <footer v-bind:class="{ push: pushFooter }">
+      <div class="wrapper">
+        <h5>News Catalyst is funded by the <a href="https://www.lenfestinstitute.org/knight-lenfest-local-news-transformation-fund/">Knight-Lenfest Local News Transformation Fund.</a></h5>
+        <div class="funders">
+          <a href="https://knightfoundation.org"><g-image class="knight" src="~/assets/knight.png" alt="Knight Foundation" /></a>
+          <a href="https://lenfestinstitute.org"><g-image class="lenfest" src="~/assets/lenfest.png" alt="Lenfest Institute for Journalism"/></a>
+          <a href="https://facebookjournalismproject.com"><g-image class="facebook" src="~/assets/fb.svg" alt="Facebook Journalism Project" /></a>
+        </div>
+      </div>
       <div class="project-home">
         <div class="wrapper">
-          <h5>News Catalyst is funded by the <a href="https://www.lenfestinstitute.org/knight-lenfest-local-news-transformation-fund/">Knight-Lenfest Local News Transformation Fund.</a></h5>
           <div class="lockup">
             <a href="https://klein.temple.edu"><g-image class="temple" src="~/assets/klein.png" alt="Klein College of Media and Communication at Temple University" /></a>
           </div>
@@ -107,9 +114,6 @@ export default {
     h5 {
       font-size: 17px;
       text-align: center;
-      a {
-        color: white;
-      }
       margin-bottom: 2.5rem;
     }
 
