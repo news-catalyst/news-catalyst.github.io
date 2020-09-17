@@ -40,8 +40,8 @@
       <div class="action">
         <div class="block">
           <h2 class="lede">We need your help</h2>
-          <h3><a href="https://newscatalyst.org/news-tools-census">Take our Tools Census</a></h3>
-          <p>We want to know what tools news organizations are using every day and whether or not they are effective. If you work at a news organization, please <a href="https://newscatalyst.org/news-tools-census">take our tools census</a> and help us learn about the state of the industry.</p>
+          <h3><a href="https://newscatalyst.org/product-partnerships">Partner with us</a></h3>
+          <p>We’re seeking to <a href="https://newscatalyst.org/product-partnerships">collaborate</a> with partner news organizations on a product-focused challenge in your news organization.</p>
 
           <h3>Get in touch</h3>
           <p>We're on Twitter! Follow us at <a href="https://twitter.com/newscatalyst">@newscatalyst</a>. We publish the latest updates about our work on our <a href="https://medium.com/news-catalyst">Medium publication</a>.</p>
