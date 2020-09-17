@@ -2,19 +2,27 @@
   <Layout>
     <article>
       <h2 id="Product Challenge Partnerships">Product Challenge Partnerships</h2>
-      <p>News Catalyst is a two-year, grant-funded project that provides tools, fosters collaboration, and promotes experimentation in service of building digitally sustainable news organizations. The project is based at Temple University’s Klein College of Media and Communication. </p>
+      <p>News Catalyst is a two-year, grant-funded project that provides tools, fosters collaboration, and promotes experimentation in service of building digitally sustainable news organizations. The project is based at Temple University’s Klein College of Media and Communication.</p>
 
-      <p>We’re seeking to collaborate with partner news organizations on a product-focused challenge in your news organization. </p>
+      <p>We’re seeking to collaborate with partner news organizations on a product-focused challenge in your news organization.</p>
 
       <p>Partnering with News Catalyst on a product problem means that we assist with identifying and solving a specific product roadblock or challenge within your organization.</p>
 
-      <p>This could take the form of things like:</p>
-      <ul><li>helping your teams develop a shared understanding of product development
-      </li><li>developing a better process around product development
-      </li><li>organizing your teams around a specific product you seek to develop
-      </li></ul>
+      <p>We’re currently focused on two main areas of challenges:</p>
 
-      <p>We’re pretty broad in our definition of what could fit this challenge and want to hear what you need help with.</p>
+      <h3 id="Product Workflows">Product Workflows</h3>
+      <p>News Catalyst is working on a suite of tools and templates to help news organizations develop product workflows that can be adapted for their specific needs. As part of that work, we’re seeking partners developing or improving their existing processes who can test aspects of the tool kit and partners with whom we can work to help address unique challenges that exist in their organizations.</p>
+
+      <p><em>News Catalyst partnered with WURD to support their efforts to design and test a print newsletter to connect with and better serve members, especially senior members who aren't active online. As part of the partnership, News Catalyst worked with the team from WURD to design a launch strategy for a postcard and the inaugural issue of WURD Press along with training for the use of Asana to manage the project work.</em></p>
+
+      <p>This kind of partnership has also taken the form of organizations reaching out with questions about how other newsrooms have tackled a specific issue. We’re currently working on two survey-research projects around workflows and processes that we will be taking back to our partners to inform their approach.</p>
+
+      <h3 id="Tools and Technology">Tools and Technology</h3>
+      <p>As part of our work to help organizations sustainably innovate, we’re working on resources to help news organizations better understand and make use of the tools and technologies required to accomplish their specific goals. We’re looking for partners seeking feedback and recommendations for their tool stack who are willing to test changes and measure effects on performance and partners who can review resources that we are developing.</p>
+
+      <p><em>News Catalyst has partnered with Montclair Local Nonprofit News to do a review of their technology stack and make recommendations for efficiencies in their workflow and process. Our recommendations helped eliminate redundancies in the process and reduced the time it took to publish. This partnership and future partnerships like this are informing resources News Catalyst is developing to help news organizations better understand and plan for their technology needs.</em></p>
+
+      <h3 id="Transparency">Transparency</h3>
 
       <p>We’re looking for partners who embrace transparency in this collaboration. We want to be able to share insights and takeaways, what works and what’s difficult. It’s our goal to share replicable solutions to the larger field of journalism.</p>
 
@@ -62,6 +70,10 @@
 
       <p><b>What types of things will be discussed or shared publicly?</b></p>
       <p>The goal of transparency is to make available all the things we learn from addressing product challenges in a wide variety of newsrooms. This may be design concepts, metrics, open source technologies and approaches for organizing people and teams.</p>
+
+      <p><b>What if our challenge isn’t the right fit for a partnership?</b></p>
+      <p>If for some reason, we don’t have the capacity or fit to help with your specific challenge, we might still be able to provide assistance in the form of introductions or referrals to people or resources focused on relevant areas. We’re currently curating a directory of consultants who work in this space and have facilitated introductions and discussion groups to connect people working on similar problems.</p>
+
 
       <p><b>Questions for us?</b></p>
       <p>You are welcome to reach out with questions you have about this process. Email <a href="mailto:heather@newscatalyst.org">heather@newscatalyst.org</a> </p>
