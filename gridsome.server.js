@@ -41,6 +41,7 @@ module.exports = function (api) {
       contentType.addNode({
         pageTitle: parsedFrontMatter.attributes.pageTitle,
         jobTitle: parsedFrontMatter.attributes.jobTitle,
+        metaDesc: parsedFrontMatter.attributes.metaDesc,
         content: md.render(parsedFrontMatter.body),
         slug: slugify(parsedFrontMatter.attributes.pageTitle),
       });

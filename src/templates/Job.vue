@@ -14,6 +14,7 @@ query Job ($path: String!) {
     content
     slug
     jobTitle
+    metaDesc
   }
 }
 </page-query>
@@ -21,8 +22,12 @@ query Job ($path: String!) {
 <script>
 import Layout from '~/layouts/Default.vue';
 
-function constructDesc(title) {
-  return `News Catalyst is hiring a ${title}.`;
+function constructDesc(job) {
+  if (job.metaDesc) {
+    return job.metaDesc;
+  }
+
+  return `News Catalyst is hiring a ${job.jobTitle}.`;
 }
 
 export default {
@@ -35,7 +40,7 @@ export default {
       meta: [
         {
           name: "description",
-          content: constructDesc(this.$page.job.jobTitle),
+          content: constructDesc(this.$page.job),
         },
         {
           name: "og:title",
@@ -43,7 +48,7 @@ export default {
         },
         {
           name: "og:description",
-          content: constructDesc(this.$page.job.jobTitle),
+          content: constructDesc(this.$page.job),
         },
         {
           name: "og:url",
@@ -55,7 +60,7 @@ export default {
         },
         {
           name: "twitter.description",
-          content: constructDesc(this.$page.job.jobTitle),
+          content: constructDesc(this.$page.job),
         },
       ],
     };
