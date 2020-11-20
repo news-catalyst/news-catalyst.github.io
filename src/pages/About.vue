@@ -31,6 +31,11 @@
         <g-image class="headshot" src="~/assets/jessica.jpg" />
         <p>Jessica Morrison is a senior product manager at Chemical & Engineering News and product lead for News Catalyst. She started a product team at C&EN in 2018 with support from newsroom leadership and has since led the team through several new product launches and many, many two-week sprints. Before moving into product, Jessica was a policy reporter at C&EN, an editorial fellow at Nature, a health reporting fellow at the Charlotte Observer, and a science reporting fellow at the Chicago Tribune. Jessica earned a Ph.D. from the University of Notre Dame, where she studied uranium geochemistry.</p>
       </div>
+      <div class="staffer">
+        <h5>Moumita Paladhi, Marketing Fellow</h5>
+        <g-image class="headshot" src="~/assets/moumita.jpg" />
+        <p>Moumita is a masters student at Temple Univerity's Fox School of Business studying Marketing Research & Insights. She joins us as a Marketing Fellow and comes with more than eight years of digital marketing experience. Her expertise is in digital strategy, communications, marketing automation, analytics, & campaign management and execution.</p>
+      </div>
 
     </article>
   </Layout>
