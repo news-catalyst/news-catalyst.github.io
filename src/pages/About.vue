@@ -32,6 +32,11 @@
         <p>Jessica Morrison is a senior product manager at Chemical & Engineering News and product lead for News Catalyst. She started a product team at C&EN in 2018 with support from newsroom leadership and has since led the team through several new product launches and many, many two-week sprints. Before moving into product, Jessica was a policy reporter at C&EN, an editorial fellow at Nature, a health reporting fellow at the Charlotte Observer, and a science reporting fellow at the Chicago Tribune. Jessica earned a Ph.D. from the University of Notre Dame, where she studied uranium geochemistry.</p>
       </div>
       <div class="staffer">
+        <h5>Madison Karas, Editorial Fellow</h5>
+        <g-image class="headshot" src="~/assets/madison.jpg" />
+        <p>Madison is a journalism and economics student at Temple University’s Klein College of Media and Communication and College of Liberal Arts. She is the Editor-in-Chief at The Temple News, Temple’s student newspaper, and Fourteenth Street, Temple’s student-produced magazine. Madison is a freelance journalist in Philadelphia and a 2020 RTDNA/RIAS German-American Student Journalist Exchange fellow. She is enthusiastic to help strengthen newsrooms as an Editorial Fellow at News Catalyst.</p>
+      </div>
+      <div class="staffer">
         <h5>Moumita Paladhi, Marketing Fellow</h5>
         <g-image class="headshot" src="~/assets/moumita.jpg" />
         <p>Moumita is a masters student at Temple Univerity's Fox School of Business studying Marketing Research & Insights. She joins us as a Marketing Fellow and comes with more than eight years of digital marketing experience. Her expertise is in digital strategy, communications, marketing automation, analytics, & campaign management and execution.</p>
