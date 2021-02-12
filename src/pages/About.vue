@@ -41,6 +41,11 @@
         <g-image class="headshot" src="~/assets/moumita.jpg" />
         <p>Moumita is a masters student at Temple Univerity's Fox School of Business studying Marketing Research & Insights. She joins us as a Marketing Fellow and comes with more than eight years of digital marketing experience. Her expertise is in digital strategy, communications, marketing automation, analytics, & campaign management and execution.</p>
       </div>
+      <div class="staffer">
+        <h5>Amelia Winger, Editorial Fellow</h5>
+        <g-image class="headshot" src="~/assets/amelia.jpg" />
+        <p>Amelia is a journalism and political science student at Temple University’s Klein College of Media and Communication and College of Liberal Arts. She is the news director for WHIP Radio, Temple’s student radio station, and the assistant news editor for The Temple News, Temple’s student newspaper. Amelia was formerly the editor in chief of the Global Philadelphia Association’s Emerging International Journalism Program. She is looking forward to supporting newsrooms’ collaborative and editorial processes as an editorial fellow at News Catalyst.</p>
+      </div>
 
     </article>
   </Layout>
